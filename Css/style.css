@@ -1,0 +1,590 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.adgepage{
+    
+        background-color:black;
+        height: 25px;
+        position:relative;
+        width: 100%;
+   
+}
+
+/* código para mobile*/
+
+/* Header  mobile*/
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width:500px){
+ header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+    .logo{
+    width: 60px;
+    height:60px;
+    margin-left: 68px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+    }
+
+        nav{
+        width: 60%;
+        display: inline-block;
+        }
+
+        ul{
+        display: none;
+        }
+
+        .containerburger{
+            width: 25px;
+            height: 25px;
+            display: inline-block;
+            margin-left: 23px;
+        }
+
+
+        /* li{
+        margin: 30px;
+        display: inline-block;
+        } */
+    
+       
+
+        /* a{
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        } */
+
+       /*  i{
+            display: inline-block;
+        } */
+
+       
+
+
+    /* Menu Hamburguesa */
+       /*  #myImage{
+            float: right;
+            width: 35px;
+            height: 35px;
+            margin-right: 25px;
+        }  */
+        
+       
+            
+
+/* Footer */
+footer{
+    width: 100%;
+    height:50px;
+
+}
+    .share{
+        width: 100%;
+        height:66.6px;
+        display: none;
+        
+    }
+    .fig{
+        width:100%;
+        height:66.6px;
+        display: inline-block;
+        text-align: center;
+       
+    }
+                  
+    i{
+    width:50px;
+    height:50px;
+    }         
+           
+      
+    .copyright{
+        width: 100%;
+        height:20px;
+        display: none;
+    }
+
+
+/* página de Productos */
+.ProdutosBig{
+    width: 100%;
+    height: 1500px;
+    margin: 40px;
+}
+
+.productos{
+    width: 100%;
+    align-items: center;
+    margin: 6px;
+    height: 1500px;
+    display: grid;
+    grid-template-columns: repeat(2, 156px);
+    grid-template-rows: repeat(6, 120px);
+    gap: 29px 29px;
+    
+}
+
+.prod{
+    width: 150px;
+    height: 150px;  
+}
+
+.models{
+    width: 100%;
+    height: 1600px;
+    text-align: center;
+    display: block;
+    margin:10px;
+}
+
+.model{
+    width: 300px;
+    height: 300px;
+}
+
+#seemore{
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+    background-color:pink;
+
+}
+
+a{
+    color: black;
+}
+
+/* Código para ofertas */
+
+
+.ofertas{
+    width:100%;
+    height:400px;
+    display: block;
+    text-align: center;
+   
+}
+
+.black{
+    width: 250px;
+    height: 300px;
+}
+
+.Sales{
+    width:200px;
+    height: 50px;
+    margin: 30px;
+    border-radius:7px ;
+    background-color: rgba(192, 111, 111, 0.541);
+   
+    }
+.Sales:hover{
+    background-color: red;
+}
+
+/* Código para página de Saldos */
+
+    .saldos{
+    width: 100%;
+    height: 5200px;
+    }
+
+    .ofertasesp{
+    display: inline-block; 
+    }
+
+
+    .sal{
+    width: 100%;
+    height: 500px;
+    }
+
+      /* Código del Shop */
+
+
+      .shop{
+          width: 100%;
+          height: 300px;
+          margin-top: 25px;
+          display: block;
+         margin-left: 100px;
+      }
+
+       .oferts{
+         margin: 5px;
+      } 
+
+      .hi{
+          width: 200px;
+          height: 50px;
+          background-color: rosybrown;
+          font-size: 16px;
+      }
+
+      h1,h2{
+        text-align: center;
+    }
+      
+      /* Código para formulario de contacto */
+
+      .formulario{
+        width: 300px;
+        height: 500px;
+        background-color:black;
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        align-items: center;
+        margin-left: 80px;
+        border-radius: 5%;
+       /*  display: flex; */
+        margin-bottom: 25px;
+    }
+    
+    input{
+        width: 200px;
+        height: 20px;
+        border-radius: 15px;
+        margin: 15px;
+               
+    }
+
+    label{
+       margin:15px;
+    }
+
+    #Datos{
+        margin-left:15px;
+    }
+
+    #mail{
+        margin-left: 20px;
+    }
+
+    #pss{
+        margin-left: 10px;
+    }
+
+    #number{
+        margin-left: 15px;
+    }
+
+    #clean{
+        margin-left:-12px;
+    }
+    
+    #clean:hover{
+        background-color:rosybrown;
+        color: white;
+    }
+
+    #Datos:hover{
+        background-color:rosybrown;
+        color: white;
+    }
+}
+
+/* Código Para Desktop */
+
+/* Header */
+
+@media (min-width:500px){
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    }
+
+    .logo{
+    width:150px;
+    height:150px;
+    margin-left: 100px;
+    border-radius: 5px;
+    }
+
+    .logo_box{
+    width: 40%;
+        }
+
+    nav{
+    width: 60%;
+        }
+
+    li{
+    margin: 30px;
+    display: inline-block;
+    }
+    
+    ul{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    }
+
+    a{
+    text-decoration: none;
+    color: black;
+    }
+
+    .containerburger{
+    display: none;
+    }
+
+
+/* Código para el footer */
+
+footer{
+    width: 100%;
+    height:200px;
+
+}
+    .share{
+        width: 100%;
+        height:66.6px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #000000;
+        text-align: center; 
+        font-size: 16px;
+        
+    }
+    .fig{
+        width:100%;
+        height:66.6px;
+        display: inline-block;
+        text-align: center;
+       
+        }
+                  
+            i{
+                width:50px;
+                height:50px;
+                 
+            }
+       
+    
+    .copyright{
+        width: 100%;
+        height:20px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: #000000;
+        text-align: center; 
+        font-size: 14px;
+    }
+
+
+    main{
+        width: 100%;
+        height: 400px;
+    }
+ 
+
+    .ProdutosBig{
+        width: 100%;
+        height: 800px;
+        margin: 40px;
+       
+    }
+    
+    .productos{
+        width: 100%;
+        height: 1500px;
+        margin: 30px;
+        display: grid;
+        grid-template-columns: repeat(2, 156px);
+        grid-template-rows: repeat(6, 120px);
+        gap: 29px 29px;
+    }
+    
+    .prod{
+        width: 200px;
+        height:200px;
+        
+        
+    }
+
+    .models{
+        width: 100%;
+        height: 700px;
+        text-align: center;
+        display: block;
+    }
+    
+    .model{
+        width: 300px;
+        height: 300px;
+    }
+    
+    #seemore{
+        width: 100px;
+        height: 25px;
+        border-radius: 7px;
+        background-color: black;
+        
+    }
+
+    
+
+    #seemore:hover{
+        background-color: rosybrown;
+
+        
+    
+    }
+
+    
+    /* Código para ofertas */
+
+
+.ofertas{
+    background-color: black;
+    width: 100%;
+    height: 530px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.black{
+    width: 300px;
+    height: 400px;
+    margin-top: 40px;
+}
+
+.Sales{
+    width:200px;
+    height: 50px;
+    margin: 30px;
+    border-radius:7px ;
+    background-color: black;
+    color: white;
+    
+    }
+
+.Sales:hover{
+        background-color: rosybrown;
+    }
+
+h1,h2{
+        text-align: center;
+    }
+
+    /* Código para página de Saldos */
+
+.saldos{
+        width: 100%;
+        height:2700px;
+        
+    }
+
+.ofertasesp{
+        display:inline-block;
+        text-align: center;
+            
+    }
+
+.sal{
+        width: 400px;
+        height: 500px;
+    }
+    
+    /* Código del Shop */
+
+.shop{
+        width: 100%;
+        height: 300px;
+        margin-top: 25px;
+        display: block;
+        margin-left: 300px;
+    }
+
+.oferts{
+       margin: 5px;
+    } 
+
+.hi{
+        width: 500px;
+        height: 50px;
+        background-color: rosybrown;
+        font-size: 16px;
+    }
+
+
+     /* Código para formulario de contacto */
+
+    .formulario{
+        width: 500px;
+        height: 400px;
+        background-color:black;
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        align-items: center;
+        margin-left: 300px;
+        border-radius: 5%;
+    }
+
+
+    
+    input{
+        width: 200px;
+        height: 20px;
+        border-radius: 15px;
+        margin: 15px;
+        margin-left: 25px;
+
+        
+    }
+
+    label{
+        margin-left: 35px;
+    }
+
+    #Datos{
+        margin-left:130px;
+    }
+
+    #mail{
+        margin-left: 50px;
+    }
+
+    #pss{
+        margin-left: 10px;
+    }
+
+    #number{
+        margin-left: 29px;
+    }
+
+    #clean{
+        margin-left: 100px;
+    }
+
+    #clean:hover{
+        background-color:rosybrown;
+        color: white;
+    }
+
+    #Datos:hover{
+        background-color:rosybrown;
+        color: white;
+    }
+}
